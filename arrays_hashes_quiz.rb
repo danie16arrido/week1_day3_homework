@@ -3,20 +3,24 @@
 lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
 
 # 1. Work out how many stops there are in the array
- puts lines.length()
+ puts "A-1", lines.length()
 
 # 2. Return 'Edinburgh Park' from the array
-puts lines[1]
+puts "A-2", lines[1]
 # 3. How many ways can we return 'Princes Street' from the array?
+puts "A-3"
 puts lines[4]
 puts lines[-1]
 puts lines[lines.length - 1]
 # 4. Work out the index position of 'Haymarket'
+puts "A-4"
 lines.each_index do |index|
     puts index if lines[index] == "Haymarket"
 end
 # 5. Add 'Airport' to the start of the array
-
+puts "A-5"
+lines.unshift('Airport')
+puts lines[0]
 # 6. Add 'York Place' to the end of the array
 
 # 7. Remove 'Edinburgh Park' from the array using it's name
