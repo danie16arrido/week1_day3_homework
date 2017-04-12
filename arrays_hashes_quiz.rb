@@ -104,7 +104,8 @@ puts users["Jonathan"][:twitter]
 puts "C-2"
 puts users["Erik"][:home_town]
 # 3. Return the array of Erik's favorite numbers
-
+puts "C-3"
+puts users["Erik"][:favourite_numbers]
 # 4. Return the type of Avril's pet Colin
 
 # 5. Return the smallest of Erik's favorite numbers
