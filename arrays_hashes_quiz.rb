@@ -22,7 +22,9 @@ puts "A-5"
 lines.unshift('Airport')
 puts lines[0]
 # 6. Add 'York Place' to the end of the array
-
+puts "A-6"
+lines.push("York Place")
+puts lines[lines.length - 1]
 # 7. Remove 'Edinburgh Park' from the array using it's name
 
 # 8. Delete 'Edinburgh Park' from the array by index
