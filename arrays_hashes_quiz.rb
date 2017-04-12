@@ -97,6 +97,8 @@ users = {
 }
 
 # 1. Return Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+puts "C-1"
+puts users["Jonathan"][:twitter]
 
 # 2. Return Erik's hometown
 
