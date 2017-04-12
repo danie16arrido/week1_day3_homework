@@ -12,6 +12,9 @@ puts lines[4]
 puts lines[-1]
 puts lines[lines.length - 1]
 # 4. Work out the index position of 'Haymarket'
+lines.each_index do |index|
+    puts index if lines[index] == "Haymarket"
+end
 # 5. Add 'Airport' to the start of the array
 
 # 6. Add 'York Place' to the end of the array
