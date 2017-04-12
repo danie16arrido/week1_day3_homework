@@ -107,7 +107,8 @@ puts users["Erik"][:home_town]
 puts "C-3"
 puts users["Erik"][:favourite_numbers]
 # 4. Return the type of Avril's pet Colin
-
+puts "C-4"
+puts users["Avril"][:pets]["colin"]
 # 5. Return the smallest of Erik's favorite numbers
 
 # 6. Add the number `7` to Erik's favorite numbers
