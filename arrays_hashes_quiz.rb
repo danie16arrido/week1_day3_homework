@@ -6,11 +6,12 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
  puts lines.length()
 
 # 2. Return 'Edinburgh Park' from the array
-
+puts lines[1]
 # 3. How many ways can we return 'Princes Street' from the array?
-
+puts lines[4]
+puts lines[-1]
+puts lines[lines.length - 1]
 # 4. Work out the index position of 'Haymarket'
-
 # 5. Add 'Airport' to the start of the array
 
 # 6. Add 'York Place' to the end of the array
