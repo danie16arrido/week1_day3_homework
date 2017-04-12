@@ -20,12 +20,13 @@ end
 # 5. Add 'Airport' to the start of the array
 puts "A-5"
 lines.unshift('Airport')
-puts lines[0]
+puts lines.first
 # 6. Add 'York Place' to the end of the array
 puts "A-6"
 lines.push("York Place")
-puts lines[lines.length - 1]
+puts lines.last
 # 7. Remove 'Edinburgh Park' from the array using it's name
+puts "A-7"
 
 # 8. Delete 'Edinburgh Park' from the array by index
 
