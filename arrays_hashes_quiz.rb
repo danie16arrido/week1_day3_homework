@@ -27,8 +27,15 @@ lines.push("York Place")
 puts lines.last
 # 7. Remove 'Edinburgh Park' from the array using it's name
 puts "A-7"
-
+lines.delete("Edinburgh Park")
+puts lines
 # 8. Delete 'Edinburgh Park' from the array by index
+puts "A-8"
+#put Edinburgh Pargk back to array[1]
+lines[1] = "Edinburgh Park"
+puts lines, "******"
+lines.delete_at(1)
+puts lines
 
 # 9. Reverse the positions of the stops in the array
 
