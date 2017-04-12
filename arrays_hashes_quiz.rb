@@ -125,3 +125,12 @@ puts "C-8"
 users["Erik"][:pets]["Fluffy"] = "dog"
 puts users["Erik"][:pets]
 # 9. Add yourself to the users hash
+daniel = {
+  :twitter => "yopero",
+  :favourite_numbers => [7, 7, 7, 7],
+  :home_town => "Santa Cruz",
+  :pets => {}
+}
+users["Daniel"] = daniel
+puts "C-9"
+puts users
