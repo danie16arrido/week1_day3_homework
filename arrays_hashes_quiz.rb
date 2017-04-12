@@ -101,7 +101,8 @@ puts "C-1"
 puts users["Jonathan"][:twitter]
 
 # 2. Return Erik's hometown
-
+puts "C-2"
+puts users["Erik"][:home_town]
 # 3. Return the array of Erik's favorite numbers
 
 # 4. Return the type of Avril's pet Colin
