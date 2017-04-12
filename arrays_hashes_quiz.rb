@@ -55,7 +55,9 @@ puts my_hash[:two]
 puts "B-3"
 puts my_hash["two"]
 # 4. How would you add `{3 => "Three"}` to the hash?
-
+puts "B-4"
+my_hash[3] = "Three"
+puts my_hash
 # 5. How would you add `{:four => 4}` to the hash?
 
 ### C. Given the following data structure:
