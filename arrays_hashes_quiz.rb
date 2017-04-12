@@ -110,7 +110,8 @@ puts users["Erik"][:favourite_numbers]
 puts "C-4"
 puts users["Avril"][:pets]["colin"]
 # 5. Return the smallest of Erik's favorite numbers
-
+puts "C-5"
+puts users["Erik"][:favourite_numbers].min()
 # 6. Add the number `7` to Erik's favorite numbers
 
 # 7. Change Erik's hometown to Edinburgh
