@@ -4,7 +4,8 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 
 # 1. Work out how many stops there are in the array
  puts "A-1", lines.length()
-
+ lines.size()
+ lines.count()
 # 2. Return 'Edinburgh Park' from the array
 puts "A-2", lines[1]
 # 3. How many ways can we return 'Princes Street' from the array?
@@ -122,7 +123,7 @@ users["Erik"][:home_town] = "Edinburgh"
 puts users["Erik"][:home_town]
 # 8. Add a pet dog to Erik called "Fluffy"
 puts "C-8"
-users["Erik"][:pets]["Fluffy"] = "dog"
+users["Erik"][:pets]["Fluffy"] = :dog
 puts users["Erik"][:pets]
 # 9. Add yourself to the users hash
 daniel = {
@@ -134,3 +135,4 @@ daniel = {
 users["Daniel"] = daniel
 puts "C-9"
 puts users
+
